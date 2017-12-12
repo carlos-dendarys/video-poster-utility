@@ -3,7 +3,7 @@
   "version": "0.2.6",
   "description": "This application is used in order to get image from a video.",
   "engines": {
-    "node": "6.11.1"
+    "node": "6.11.2"
   },
   "main": "index.js",
   "scripts": {
