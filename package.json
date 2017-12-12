@@ -6,15 +6,19 @@
     "node": "6.11.2"
   },
   "main": "index.js",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "jest"
   },
   "dependencies": {
     "ejs": "2.5.6",
     "express": "4.15.2"
   },
   "devDependencies": {
+    "jest": "^21.2.1",
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
