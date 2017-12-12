@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 
+//We setup the port of the application server.
 app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
