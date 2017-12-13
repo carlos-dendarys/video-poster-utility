@@ -5,4 +5,4 @@ request('https://api.ghostinspector.com/v1/tests/5a319034e684912918944780/execut
     if (!error && response.statusCode == 200) {
         console.log(body) // Print the google web page.
     }
-})
+});
