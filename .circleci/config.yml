@@ -59,6 +59,10 @@ jobs:
               heroku run python manage.py deploy
               heroku restart
             fi
+            
+      - run:
+          name: Integration Tests
+          command: yarn run test-integration
 
 # workflows:
 #   version: 2
