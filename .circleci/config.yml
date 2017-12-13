@@ -17,6 +17,12 @@ jobs:
 
     working_directory: ~/repo
 
+    deployment:
+      staging:
+        branch: master
+        heroku:
+          appname: get-video-poster
+
     steps:
       - checkout
 
@@ -37,11 +43,9 @@ jobs:
       # run tests!
       - run: yarn run test
 
-    deployment:
-      staging:
-        branch: master
-        heroku:
-          appname: get-video-poster
+      - run: git push
+
+
 
 
 
