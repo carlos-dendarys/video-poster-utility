@@ -41,6 +41,7 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: vpu-app
+      appname: get-video-poster
+
 
 
