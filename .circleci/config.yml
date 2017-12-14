@@ -6,7 +6,7 @@
 general:
   branches:
     only:
-      - master 
+      - master
       - staging
 
 version: 2
