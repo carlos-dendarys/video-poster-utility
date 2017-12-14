@@ -70,7 +70,7 @@ jobs:
 
       - run:
           name: Integration Tests
-          command:
+          command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               yarn run test-integration
             fi
